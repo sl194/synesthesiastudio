@@ -38,7 +38,7 @@ User Uploads Image
        ↓
 [ Output MIDI ]
   - Shown/downloadable on web
-
+```
 ---
 
 ## 🧰 Requirements
