@@ -1,5 +1,6 @@
 # 🎨🧠🎵 Synesthesia Studio
-**Express your emotions across modalities — from drawing to sound.**  
+**Express your emotions across modalities — from drawing to sound.** 
+
 As emotional beings, we constantly seek ways to share what we feel—with ourselves, and with others. Some turn to colors and canvas, others to rhythm and melody, or to words and verse. But every medium speaks a different language, and not everyone is fluent in all. A painter might dream of composing music but lack the tools to express emotion through sound; a musician might sense beauty in a painting yet struggle to decode its emotional depth. These boundaries between expressive forms can make it difficult for us to fully communicate—or fully understand—one another’s inner worlds.
 
 ---
@@ -38,3 +39,12 @@ User Uploads Image
 [ Output MIDI ]
   - Shown/downloadable on web
 
+---
+
+## 🧰 Requirements
+### 🖥️ System
+- macOS (tested)
+- Node.js 18+
+- Python 3.11 or 3.12
+- [Anaconda](https://www.anaconda.com/download)
+- [Magenta](https://github.com/magenta/magenta) (follow steps to install here) 
