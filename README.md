@@ -39,20 +39,23 @@ User Uploads Image
 [ Output MIDI ]
   - Shown/downloadable on web
 ```
+
 ```mermaid
 flowchart LR
-  U[User] -->|Upload image| PJ[page.js (client)]
-  PJ -->|Local feature extraction| MP[Music Params (key/mode/tempo...)]
-  MP --> PS[PrimerSpec JSON {primer_melody,num_steps,config}]
-  PJ -->|POST primerSpec| API[/api/generate (route.js)/]
+  U[User] -->|Upload image| PJ[page.js]
+  PJ -->|Local feature extraction| MP[Music Params]
+  MP --> PS[PrimerSpec JSON]
+  PJ -->|POST primerSpec| API["/api/generate/route.js"]
+
   subgraph Server
     API -->|spawn| MG[melody_rnn_generate]
-    MG --> OUT[(public/generated/*.mid)]
+    MG --> OUT["public/generated/*.mid"]
     API -->|return URL| PJ
   end
-  PJ -->|play| AU[<audio> player]
 
-  %% Optional path
+  PJ -->|play| AU["audio player"]
+
+  %% Optional CLI branch
   PS -. optional .-> PY[generatemelody.py]
   PY -. calls .-> MG
 ```
