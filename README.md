@@ -43,7 +43,7 @@ User Uploads Image
 ```mermaid
 flowchart LR
   U[User] -->|Upload image| PJ[page.js]
-  PJ -->|Local feature extraction| MP[Music Params]
+  PJ -->|Local feature extraction| MP[Music Parameters]
   MP --> PS[PrimerSpec JSON]
   PJ -->|POST primerSpec| API["/api/generate/route.js"]
 
@@ -53,7 +53,7 @@ flowchart LR
     API -->|return URL| PJ
   end
 
-  PJ -->|play| AU["audio player"]
+  PJ -->|play| AU["<audio> player"]
 
   %% Optional CLI branch
   PS -. optional .-> PY[generatemelody.py]
