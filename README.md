@@ -1,13 +1,12 @@
 # 🎨🧠🎵 Synesthesia Studio
 **Express your emotions across modalities — from drawing to sound.**  
-This prototype uses **AI** to interpret an uploaded drawing or image, extract its emotional tone and visual features, and generate corresponding **music parameters** and an **8-bar MIDI melody** using **Magenta**.
+As emotional beings, we constantly seek ways to share what we feel—with ourselves, and with others. Some turn to colors and canvas, others to rhythm and melody, or to words and verse. But every medium speaks a different language, and not everyone is fluent in all. A painter might dream of composing music but lack the tools to express emotion through sound; a musician might sense beauty in a painting yet struggle to decode its emotional depth. These boundaries between expressive forms can make it difficult for us to fully communicate—or fully understand—one another’s inner worlds.
 
 ---
 
 ## ✨ Overview
-
-Many people express themselves through different forms — some through **visual art**, others through **music**.  
-This prototype bridges modalities:  
+This prototype uses **AI** to interpret an uploaded drawing or image, extract its emotional tone and visual features, and generate corresponding **music parameters** and an **8-bar MIDI melody** using **Magenta**.
+ 
 Step 1: **Upload a drawing**  
 Step 2: **AI interprets its emotion and style**  
 Step 3: **Extracts features** (e.g., color, balance, texture) 
