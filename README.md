@@ -41,8 +41,7 @@ User Uploads Image
 ```
 ---
 
-## 🧰 Requirements
-### 🖥️ System
+## 🖥️ System Requirements
 - macOS (tested)
 - Node.js 18+
 - Python 3.11 or 3.12
