@@ -145,12 +145,12 @@ nvm current
 ### 3. Create .env.local
 In the root folder, create .env.local:
 
-LLM_HOST=https://api.whatever-your-llm-host.com
+LLM_HOST=https://api.whatever-your-llm-host.com  
 OPENAI_API_KEY=your_openai_api_key_here
 
 ### 4. Install Magenta & Python Environment
 
-You need Magenta installed locally to generate music.  
+You need Magenta installed locally to generate music:  
 
 ```bash
 conda create -n magenta-legacy python=3.7
