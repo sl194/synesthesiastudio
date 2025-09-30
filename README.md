@@ -53,7 +53,7 @@ flowchart LR
     API -->|return URL| PJ
   end
 
-  PJ -->|play| AU["<audio> player"]
+  PJ -->|play| AU["audio player"]
 
   %% Optional CLI branch
   PS -. optional .-> PY[generatemelody.py]
