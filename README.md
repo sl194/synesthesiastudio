@@ -1,6 +1,3 @@
-# synesthesiastudio
-Translating Emotions Across Mediums with the Support of an AI Partner
-
 # 🎨🧠🎵 Synesthesia Studio
 **Express your emotions across modalities — from drawing to sound.**  
 This prototype uses **AI** to interpret an uploaded drawing or image, extract its emotional tone and visual features, and generate corresponding **music parameters** and an **8-bar MIDI melody** using **Magenta**.
